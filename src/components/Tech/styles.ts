@@ -9,6 +9,7 @@ export const Container = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: yellow;
 `
 
 export const Main = styled.main`

@@ -3,18 +3,18 @@ import styled from 'styled-components'
 export const Container = styled.section`
   max-width: 1024px;
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 76px);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
 `
 
 export const Title = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50%;
+  height: 30%;
+  width: 100%;
 
   h3 {
     color: #10001f;
@@ -26,9 +26,10 @@ export const Title = styled.div`
 
 export const CardList = styled.div`
   height: 70%;
+  width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
+  flex-wrap: wrap;
 `
