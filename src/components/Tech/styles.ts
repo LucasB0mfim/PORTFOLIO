@@ -20,6 +20,7 @@ export const Main = styled.main`
   height: 50%;
 
   h3 {
+    color: #10001f;
     font-size: 40px;
     font-weight: 600;
     font-family: 'Chakra Petch', sans-serif;

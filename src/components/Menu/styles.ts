@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Container = styled.section`
-  position: relative;
   max-width: 1024px;
   width: 100%;
   height: calc(100vh - 76px);
@@ -12,17 +11,28 @@ export const Container = styled.section`
 
 export const Main = styled.main`
   width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 18%;
+
+  p {
+    font-size: 1em;
+    color: #10001f;
+  }
 `
 
 export const Aside = styled.aside`
   width: 50%;
   height: 100%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: end;
 
   img {
-    position: absolute;
-    bottom: 0;
-    right: 0.5%;
+    display: flex;
   }
 `
