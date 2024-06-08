@@ -26,7 +26,7 @@ const Header = () => (
             </S.Link>
           </li>
           <li>
-            <S.Link smooth to="/#">
+            <S.Link smooth to="/#projects">
               Projetos
             </S.Link>
           </li>

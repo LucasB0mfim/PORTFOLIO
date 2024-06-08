@@ -1,11 +1,10 @@
-// styles.ts
 import styled from 'styled-components'
 
 export const Container = styled.section`
   position: relative;
   max-width: 1024px;
   width: 100%;
-  height: calc(100vh - 76px);
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
