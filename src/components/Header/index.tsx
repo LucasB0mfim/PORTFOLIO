@@ -1,12 +1,16 @@
 import * as S from './styles'
 
-import logo from '../../assets/images/logo.png'
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth' // Para uma rolagem suave
+  })
+}
 
 const Header = () => (
   <S.Container>
     <S.Headerbar>
       <S.Icon>
-        <img src={logo} />
         <h1>
           Front end <span>Developer</span>
         </h1>
@@ -14,13 +18,17 @@ const Header = () => (
       <S.ItemsList>
         <ul>
           <li>
-            <S.Link to="/#">Sobre</S.Link>
+            <a onClick={scrollToTop}>Sobre</a>
           </li>
           <li>
-            <S.Link to="/#">Tecnologias</S.Link>
+            <S.Link smooth to="#tech">
+              Tecnologias
+            </S.Link>
           </li>
           <li>
-            <S.Link to="/#">Projetos</S.Link>
+            <S.Link smooth to="/#">
+              Projetos
+            </S.Link>
           </li>
         </ul>
       </S.ItemsList>

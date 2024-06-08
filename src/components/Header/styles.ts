@@ -3,11 +3,16 @@ import styled from 'styled-components'
 import { HashLink } from 'react-router-hash-link'
 
 export const Container = styled.div`
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 76px;
+  background-color: #fff;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 `
 
@@ -60,6 +65,16 @@ export const ItemsList = styled.div`
 
     li {
       margin-left: 32px;
+    }
+
+    a {
+      color: #10001f;
+      font-weight: 400;
+      cursor: pointer;
+
+      &:hover {
+        color: #ff6700;
+      }
     }
   }
 `
