@@ -7,7 +7,7 @@ export const Container = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #fff;
+  // background: #fff;
 `
 
 export const Main = styled.main`
