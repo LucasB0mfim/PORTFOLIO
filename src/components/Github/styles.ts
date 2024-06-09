@@ -3,32 +3,32 @@ import styled from 'styled-components'
 export const Container = styled.div`
   max-width: 1024px;
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   overflow-y: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
 
   img {
-    height: 100%;
+    width: 200px;
     object-fit: cover;
   }
 
   span {
-    color: #fff;
+    color: #000;
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 600;
   }
 `
 
 export const Box = styled.div`
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 50%;
 
   a {
     display: flex;
-    color: #fff;
+    color: #ff6600;
     font-size: 18px;
     font-weight: inherit;
     margin-top: 20px;

@@ -1,11 +1,11 @@
-import teste1 from '../../assets/images/teste4.jpg'
+import githug from '../../assets/images/githubBig.png'
 import seta from '../../assets/images/seta.png'
 
 import * as S from './styles'
 
 const Github = () => (
   <S.Container>
-    <img src={teste1} />
+    <img src={githug} />
     <S.Box>
       <span>Veja mais projetos no meu github!</span>
       <a

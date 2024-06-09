@@ -54,6 +54,5 @@ export const GlobalStyle = createGlobalStyle`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #000;
 }
 `

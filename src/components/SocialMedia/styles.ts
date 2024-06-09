@@ -3,12 +3,17 @@ import styled from 'styled-components'
 export const Container = styled.div`
   max-width: 1024px;
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
+  justify-content: space-between;
+  align-items: center;
 
+  img {
+    width: 180px;
+  }
+`
+
+export const Box = styled.div`
   h3 {
     color: #ff6600;
     font-size: 50px;
