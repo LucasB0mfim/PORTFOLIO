@@ -13,10 +13,8 @@ function App() {
     <BrowserRouter>
       <GlobalStyle />
       <Header />
-      <div className="container">
-        <Menu />
-      </div>
       <div className="gradi">
+        <Menu />
         <Tech />
         <Projects />
       </div>
