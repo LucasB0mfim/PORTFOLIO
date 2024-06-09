@@ -27,6 +27,8 @@ export const Main = styled.main`
 
 export const Aside = styled.aside`
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 50%;
 

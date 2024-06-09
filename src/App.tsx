@@ -6,6 +6,7 @@ import Tech from './components/Tech'
 import Projects from './components/Projects'
 
 import { GlobalStyle } from './styles'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Tech />
         <Projects />
       </div>
+      <Footer />
     </BrowserRouter>
   )
 }
