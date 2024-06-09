@@ -7,25 +7,27 @@ export const Container = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background: #fff;
 `
 
 export const Main = styled.main`
-  width: 50%;
+  width: 60%;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: end;
-  padding-bottom: 18%;
+  justify-content: center;
 
   p {
-    font-size: 1em;
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
     color: #10001f;
   }
 `
 
 export const Aside = styled.aside`
-  width: 50%;
+  width: 40%;
   height: 100%;
   display: flex;
   flex-direction: column;

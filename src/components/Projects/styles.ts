@@ -1,19 +1,20 @@
 import styled from 'styled-components'
 
 export const Container = styled.section`
+  height: calc(100vh - 76px);
   max-width: 1024px;
   width: 100%;
-  height: calc(100vh - 76px);
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 500px;
 `
 
 export const Title = styled.div`
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30%;
   width: 100%;
 
   h3 {
@@ -25,11 +26,9 @@ export const Title = styled.div`
 `
 
 export const CardList = styled.div`
-  height: 70%;
+  height: 50%;
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
+  justify-content: space-between;
   flex-wrap: wrap;
 `

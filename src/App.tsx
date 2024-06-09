@@ -14,6 +14,8 @@ function App() {
       <Header />
       <div className="container">
         <Menu />
+      </div>
+      <div className="gradi">
         <Tech />
         <Projects />
       </div>

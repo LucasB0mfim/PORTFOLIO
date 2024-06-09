@@ -2,33 +2,43 @@ import { HashLink } from 'react-router-hash-link'
 import styled from 'styled-components'
 
 export const Case = styled(HashLink)`
-  height: 350px;
-  width: 300px;
+  width: 320px;
   padding: 8px;
   border-radius: 5px;
-  background-color: #10001f;
   cursor: pointer;
+  background: #000;
+  box-shadow: 0px 0px 20px #000;
+  margin-bottom: 30px;
+  transition:
+    height 0.2s,
+    box-shadow 0.2s;
+  overflow: hidden;
+  height: 205px;
 
   img {
     width: 100%;
     border-radius: 5px;
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
 
-    user-drag: none; /* Bloqueia o arrastar da imagem */
-    -webkit-user-drag: none; /* Bloqueia o arrastar da imagem no WebKit */
-    user-select: none; /* Bloqueia a seleção do texto da imagem */
-    -webkit-user-select: none; /* Bloqueia a seleção do texto da imagem no WebKit */
-    -moz-user-select: none; /* Bloqueia a seleção do texto da imagem no Firefox */
-    -ms-user-select: none; /* Bloqueia a seleção do texto da imagem no Internet Explorer */
+  &:hover {
+    height: 300px; /* Altura ao passar o mouse */
+    box-shadow: 0px 0px 30px #000;
   }
 `
 
-export const Title = styled.h3`
-  color: #fff;
-  font-weight: 400;
-  margin: 10px 0;
-`
-
-export const Description = styled.p`
-  color: #fff;
-  font-size: 14px;
+export const Description = styled.div`
+  width: 100%;
+  height: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 48px;
+  }
 `
