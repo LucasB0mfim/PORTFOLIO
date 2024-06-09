@@ -8,6 +8,7 @@ import Projects from './components/Projects'
 import { GlobalStyle } from './styles'
 import Footer from './components/Footer'
 import SocialMedia from './components/SocialMedia'
+import Github from './components/Github'
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
       </div>
       <div className="containerGray">
         <SocialMedia />
+      </div>
+      <div className="containerBlack">
+        <Github />
       </div>
       <Footer />
     </BrowserRouter>

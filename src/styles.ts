@@ -48,4 +48,12 @@ export const GlobalStyle = createGlobalStyle`
   align-items: center;
   background: rgb(245, 245, 245);
 }
+
+.containerBlack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
 `
