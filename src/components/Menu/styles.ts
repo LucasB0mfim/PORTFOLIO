@@ -7,7 +7,6 @@ export const Container = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  // background: #fff;
 `
 
 export const Main = styled.main`
@@ -18,11 +17,28 @@ export const Main = styled.main`
   align-items: center;
   justify-content: center;
 
-  p {
-    text-align: center;
-    font-size: 20px;
-    line-height: 35px;
-    color: #10001f;
+  span {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Chakra Petch', sans-serif;
+    border-right: 4px solid;
+    width: 20ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+      typing 2s steps(20),
+      blinking 0.5s infinite step-end alternate;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  @keyframes blinking {
+    50% {
+      border-color: transparent;
+    }
   }
 `
 

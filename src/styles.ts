@@ -26,27 +26,26 @@ export const GlobalStyle = createGlobalStyle`
   }
 }
 
-body {
-  background: #ff6600;
-}
-
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #fff;
 }
 
-.gradi {
+.containerOrange {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgb(255,255,255);
-  background: linear-gradient(180deg,
-  rgba(255,255,255,1) 0%,
-  rgba(255,103,0,1) 100%);
+  background: #fda61a;
 }
 
+.containerGray {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(245, 245, 245);
+}
 `

@@ -9,11 +9,6 @@ const Projects = () => (
     </S.Title>
     <S.CardList>
       <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
     </S.CardList>
   </S.Container>
 )

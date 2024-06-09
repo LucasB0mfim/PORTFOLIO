@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.section`
   max-width: 1024px;
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,7 +15,7 @@ export const Main = styled.main`
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 50%;
+  height: 30%;
 
   h3 {
     color: #10001f;
@@ -30,14 +30,15 @@ export const Aside = styled.aside`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 50%;
+  height: 70%;
 
   ul {
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
-    height: 42px;
+    gap: 15px 30px;
+    height: 100%;
 
     li {
       width: 42px;

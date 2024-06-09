@@ -7,16 +7,24 @@ import Projects from './components/Projects'
 
 import { GlobalStyle } from './styles'
 import Footer from './components/Footer'
+import SocialMedia from './components/SocialMedia'
 
 function App() {
   return (
     <BrowserRouter>
       <GlobalStyle />
       <Header />
-      <div className="gradi">
+      <div className="containerOrange">
         <Menu />
+      </div>
+      <div className="containerGray">
         <Tech />
+      </div>
+      <div className="container">
         <Projects />
+      </div>
+      <div className="containerGray">
+        <SocialMedia />
       </div>
       <Footer />
     </BrowserRouter>

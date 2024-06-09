@@ -1,17 +1,16 @@
 import styled from 'styled-components'
 
 export const Container = styled.section`
-  height: calc(100vh - 76px);
+  height: 100vh;
   max-width: 1024px;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 500px;
 `
 
 export const Title = styled.div`
-  height: 50%;
+  height: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,9 +25,6 @@ export const Title = styled.div`
 `
 
 export const CardList = styled.div`
-  height: 50%;
+  height: 70%;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 `

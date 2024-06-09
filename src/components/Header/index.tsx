@@ -1,10 +1,23 @@
+import React from 'react'
 import * as S from './styles'
 
-const scrollToTop = () => {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth' // Para uma rolagem suave
-  })
+const OFFSETS: { [key: string]: number } = {
+  default: -100, // Ajuste este valor conforme necessário
+  about: -100,
+  tech: -76,
+  projects: -76
+}
+
+const scrollToSection = (id: string) => {
+  const element = document.getElementById(id)
+  if (element) {
+    const offset = OFFSETS[id] || OFFSETS.default
+    const top = element.getBoundingClientRect().top + window.scrollY + offset
+    window.scrollTo({
+      top: top,
+      behavior: 'smooth'
+    })
+  }
 }
 
 const Header = () => (
@@ -12,23 +25,19 @@ const Header = () => (
     <S.Headerbar>
       <S.Icon>
         <h1>
-          Front end <span>Developer</span>
+          Lucas <span>Bomfim</span>
         </h1>
       </S.Icon>
       <S.ItemsList>
         <ul>
           <li>
-            <a onClick={scrollToTop}>Sobre</a>
+            <a onClick={() => scrollToSection('sobre')}>Sobre</a>
           </li>
           <li>
-            <S.Link smooth to="#tech">
-              Tecnologias
-            </S.Link>
+            <a onClick={() => scrollToSection('tech')}>Tecnologias</a>
           </li>
           <li>
-            <S.Link smooth to="/#projects">
-              Projetos
-            </S.Link>
+            <a onClick={() => scrollToSection('projects')}>Projetos</a>
           </li>
         </ul>
       </S.ItemsList>
