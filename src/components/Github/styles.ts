@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
   max-width: 1024px;
   width: 100%;
-  height: 50vh;
+  height: 100vh;
   overflow-y: hidden;
   display: flex;
   align-items: center;
@@ -24,6 +24,7 @@ export const Container = styled.div`
 export const Box = styled.div`
   display: flex;
   flex-direction: column;
+  width: 500px;
 
   a {
     display: flex;

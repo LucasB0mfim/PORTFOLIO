@@ -5,6 +5,7 @@ import * as S from './styles'
 
 const Github = () => (
   <S.Container>
+    <img src={teste1} />
     <S.Box>
       <span>Veja mais projetos no meu github!</span>
       <a
@@ -16,7 +17,6 @@ const Github = () => (
         <img src={seta} />
       </a>
     </S.Box>
-    <img src={teste1} />
   </S.Container>
 )
 
