@@ -26,7 +26,7 @@ export const Main = styled.main`
     font-weight: 600;
     font-family: 'Chakra Petch', sans-serif;
     border-right: 4px solid;
-    width: 19ch;
+    width: 21ch;
     white-space: nowrap;
     overflow: hidden;
     animation:
