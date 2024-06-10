@@ -37,6 +37,7 @@ export const Case = styled.div`
   }
 
   p {
+    height: 60%;
     font-size: 18px;
     font-weight: inherit;
   }

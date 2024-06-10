@@ -67,17 +67,7 @@ export const Aside = styled.aside`
 
         &:hover {
           transition: all linear 0.2s;
-          animation: girar 0.5s linear;
-          transform: scale(1.5);
-        }
-
-        @keyframes girar {
-          from {
-            transform: rotate(0deg) scale(1);
-          }
-          to {
-            transform: rotate(360deg) scale(1.5);
-          }
+          transform: scale(1.3);
         }
       }
 
