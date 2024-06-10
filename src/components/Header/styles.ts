@@ -16,7 +16,7 @@ export const Container = styled.div`
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 
   @media (min-width: 1600px) {
-    height: 80px;
+    height: 100px;
   }
 `
 
@@ -66,10 +66,10 @@ export const Icon = styled.div`
     }
 
     @media (min-width: 1600px) {
-      font-size: 35px;
+      font-size: 40px;
 
       span {
-        font-size: 35px;
+        font-size: 40px;
       }
     }
   }
@@ -93,7 +93,7 @@ export const ItemsList = styled.div`
       }
 
       @media (min-width: 1600px) {
-        font-size: 20px;
+        font-size: 23px;
       }
     }
   }

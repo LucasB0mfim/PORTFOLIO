@@ -16,7 +16,7 @@ export const GlobalStyle = createGlobalStyle`
 
   /* Cor do controle da barra de rolagem */
   &::-webkit-scrollbar-thumb {
-    background-color: #ff6600;
+    background-color: #fda61a;
     border-radius: 10px;
   }
 
@@ -38,7 +38,7 @@ export const GlobalStyle = createGlobalStyle`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #fda61a;
+  background:#ff6700;
 }
 
 .containerGray {

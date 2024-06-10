@@ -22,6 +22,7 @@ export const Main = styled.main`
   justify-content: center;
 
   span {
+    color: #fff;
     width: 100%;
     font-weight: 600;
     font-size: 42px;
