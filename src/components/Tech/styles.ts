@@ -8,6 +8,10 @@ export const Container = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  @media (min-width: 1600px) {
+    max-width: 1400px;
+  }
 `
 
 export const Main = styled.main`
@@ -22,6 +26,10 @@ export const Main = styled.main`
     font-size: 40px;
     font-weight: 600;
     font-family: 'Chakra Petch', sans-serif;
+
+    @media (min-width: 1600px) {
+      font-size: 70px;
+    }
   }
 `
 
@@ -47,6 +55,8 @@ export const Aside = styled.aside`
       img {
         width: 100%;
         height: 100%;
+        cursor: pointer;
+        transition: all linear 0.2s;
 
         user-drag: none; /* Bloqueia o arrastar da imagem */
         -webkit-user-drag: none; /* Bloqueia o arrastar da imagem no WebKit */
@@ -54,6 +64,26 @@ export const Aside = styled.aside`
         -webkit-user-select: none; /* Bloqueia a seleção do texto da imagem no WebKit */
         -moz-user-select: none; /* Bloqueia a seleção do texto da imagem no Firefox */
         -ms-user-select: none; /* Bloqueia a seleção do texto da imagem no Internet Explorer */
+
+        &:hover {
+          transition: all linear 0.2s;
+          animation: girar 0.5s linear;
+          transform: scale(1.5);
+        }
+
+        @keyframes girar {
+          from {
+            transform: rotate(0deg) scale(1);
+          }
+          to {
+            transform: rotate(360deg) scale(1.5);
+          }
+        }
+      }
+
+      @media (min-width: 1600px) {
+        width: 65px;
+        height: 65px;
       }
     }
   }

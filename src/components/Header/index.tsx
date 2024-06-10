@@ -31,7 +31,7 @@ const Header = () => (
       <S.ItemsList>
         <ul>
           <li>
-            <a onClick={() => scrollToSection('sobre')}>Sobre</a>
+            <a onClick={() => scrollToSection('sobre')}>Início</a>
           </li>
           <li>
             <a onClick={() => scrollToSection('tech')}>Tecnologias</a>

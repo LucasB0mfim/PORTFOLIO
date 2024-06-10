@@ -7,10 +7,14 @@ export const Container = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media (min-width: 1600px) {
+    max-width: 1400px;
+  }
 `
 
 export const Main = styled.main`
-  width: 60%;
+  width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -22,12 +26,18 @@ export const Main = styled.main`
     font-weight: 600;
     font-family: 'Chakra Petch', sans-serif;
     border-right: 4px solid;
-    width: 20ch;
+    width: 19ch;
     white-space: nowrap;
     overflow: hidden;
     animation:
-      typing 2s steps(20),
+      typing 2s steps(19),
       blinking 0.5s infinite step-end alternate;
+
+    @media (min-width: 1600px) {
+      font-size: 80px;
+      border-right: 10px solid;
+      margin-bottom: -80px;
+    }
   }
 
   @keyframes typing {
@@ -43,7 +53,7 @@ export const Main = styled.main`
 `
 
 export const Aside = styled.aside`
-  width: 40%;
+  width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -52,5 +62,9 @@ export const Aside = styled.aside`
 
   img {
     display: flex;
+
+    @media (min-width: 1600px) {
+      width: 95%;
+    }
   }
 `

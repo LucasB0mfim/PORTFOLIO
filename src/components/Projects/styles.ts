@@ -7,6 +7,10 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media (min-width: 1600px) {
+    max-width: 1600px;
+  }
 `
 
 export const Title = styled.div`
@@ -21,10 +25,16 @@ export const Title = styled.div`
     font-size: 40px;
     font-weight: 600;
     font-family: 'Chakra Petch', sans-serif;
+
+    @media (min-width: 1600px) {
+      font-size: 70px;
+    }
   }
 `
 
 export const CardList = styled.div`
   height: 70%;
   width: 100%;
+  display: flex;
+  align-items: center;
 `

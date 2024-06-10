@@ -55,4 +55,10 @@ export const GlobalStyle = createGlobalStyle`
   justify-content: center;
   align-items: center;
 }
+
+@media (min-width: 1600px) {
+  &::-webkit-scrollbar {
+    width: 12px;
+  }
+}
 `

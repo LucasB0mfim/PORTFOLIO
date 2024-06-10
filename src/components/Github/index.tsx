@@ -1,5 +1,5 @@
 import githug from '../../assets/images/githubBig.png'
-import seta from '../../assets/images/seta.png'
+import seta from '../../assets/images/setaBlack.png'
 
 import * as S from './styles'
 
@@ -13,7 +13,7 @@ const Github = () => (
         target="_blank"
         rel="noreferrer"
       >
-        <span></span>Conectar
+        <span>Conectar</span>
         <img src={seta} />
       </a>
     </S.Box>

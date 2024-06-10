@@ -14,6 +14,10 @@ export const Container = styled.div`
   height: 76px;
   background-color: #fff;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+
+  @media (min-width: 1600px) {
+    height: 80px;
+  }
 `
 
 export const Headerbar = styled.header`
@@ -23,6 +27,10 @@ export const Headerbar = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media (min-width: 1600px) {
+    max-width: 1400px;
+  }
 `
 
 export const Icon = styled.div`
@@ -56,6 +64,14 @@ export const Icon = styled.div`
       font-size: 24px;
       color: #ff6700;
     }
+
+    @media (min-width: 1600px) {
+      font-size: 35px;
+
+      span {
+        font-size: 35px;
+      }
+    }
   }
 `
 
@@ -74,6 +90,10 @@ export const ItemsList = styled.div`
 
       &:hover {
         color: #ff6700;
+      }
+
+      @media (min-width: 1600px) {
+        font-size: 20px;
       }
     }
   }

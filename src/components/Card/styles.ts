@@ -6,6 +6,11 @@ export const Ul = styled.ul`
   overflow-x: scroll;
   gap: 10px;
   scroll-behavior: smooth;
+  justify-content: center;
+
+  @media (min-width: 1600px) {
+    gap: 30px;
+  }
 `
 
 export const Case = styled.div`
@@ -40,16 +45,35 @@ export const Case = styled.div`
     display: flex;
     color: #ff6600;
     font-size: 18px;
-    font-weight: inherit;
+    font-weight: 500;
+    align-items: center;
 
     img {
       width: 20px;
       margin-left: 10px;
+      margin-bottom: -2px;
       transition: transform 0.3s ease;
     }
 
     &:hover img {
       transform: translateX(5px); /* Move a seta 5px para a direita */
+    }
+  }
+
+  @media (min-width: 1600px) {
+    width: 440px;
+    height: 400px;
+
+    span {
+      font-size: 26px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    a {
+      font-size: 20px;
     }
   }
 `
