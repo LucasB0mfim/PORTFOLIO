@@ -22,11 +22,11 @@ export const Main = styled.main`
   justify-content: center;
 
   span {
-    font-size: 50px;
+    width: 100%;
     font-weight: 600;
+    font-size: 42px;
     font-family: 'Chakra Petch', sans-serif;
     border-right: 4px solid;
-    width: 19ch;
     white-space: nowrap;
     overflow: hidden;
     animation:
@@ -34,7 +34,7 @@ export const Main = styled.main`
       blinking 0.5s infinite step-end alternate;
 
     @media (min-width: 1600px) {
-      font-size: 80px;
+      font-size: 57px;
       border-right: 10px solid;
       margin-bottom: -80px;
     }
