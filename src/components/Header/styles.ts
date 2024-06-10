@@ -13,7 +13,7 @@ export const Container = styled.div`
   width: 100%;
   height: 76px;
   background-color: #fff;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 
   @media (min-width: 1600px) {
     height: 100px;

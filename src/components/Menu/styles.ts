@@ -60,6 +60,7 @@ export const Aside = styled.aside`
   flex-direction: column;
   align-items: center;
   justify-content: end;
+  overflow-y: hidden;
 
   img {
     display: flex;
