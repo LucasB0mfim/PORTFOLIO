@@ -26,11 +26,11 @@ export const Main = styled.main`
     font-weight: 600;
     font-family: 'Chakra Petch', sans-serif;
     border-right: 4px solid;
-    width: 21ch;
+    width: 22ch;
     white-space: nowrap;
     overflow: hidden;
     animation:
-      typing 2s steps(21),
+      typing 2s steps(19),
       blinking 0.5s infinite step-end alternate;
 
     @media (min-width: 1600px) {
