@@ -5,7 +5,7 @@ import * as S from './styles'
 const Menu = () => (
   <S.Container id="sobre">
     <S.Main>
-      <span>FULL STACK DEVELOPER. </span>
+      <span>FULL STACK DEVELOPERRR. </span>
     </S.Main>
     <S.Aside>
       <img src={VrGlasses} />
