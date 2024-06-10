@@ -63,6 +63,7 @@ export const Aside = styled.aside`
 
   img {
     display: flex;
+    filter: drop-shadow(0px 0px 10px #000);
 
     @media (min-width: 1600px) {
       width: 95%;
