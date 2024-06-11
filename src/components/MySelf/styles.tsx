@@ -55,6 +55,7 @@ export const Text = styled.p`
     font-weight: 400;
     padding: 20px;
     border-radius: 12px;
+    box-shadow: 2px 2px 10px #333;
   }
 
   @media (min-width: 1600px) {
