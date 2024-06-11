@@ -15,7 +15,7 @@ export const Container = styled.section`
 
   @media (max-width: 678px) {
     max-width: 678px;
-    height: 70vh;
+    height: 55vh;
   }
 `
 
