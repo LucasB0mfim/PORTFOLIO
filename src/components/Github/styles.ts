@@ -82,7 +82,7 @@ export const Box = styled.div`
     @media (max-width: 678px) {
     justify-content: center;
     width: 80%;
-    height: 50%;
+    height: 40%;
 
     > span {
       font-size: 30px;
