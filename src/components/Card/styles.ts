@@ -27,6 +27,9 @@ export const Case = styled.div`
   border-radius: 12px;
   border: 1px solid rgba(17, 17, 17, 0.1);
   margin-bottom: 10px;
+  box-shadow:
+    inset 2px 2px 4px rgba(0, 0, 0, 0.35),
+    inset -2px -2px 4px rgba(255, 255, 255, 0.9);
 
   user-drag: none; /* Bloqueia o arrastar da imagem */
   -webkit-user-drag: none; /* Bloqueia o arrastar da imagem no WebKit */
@@ -36,11 +39,13 @@ export const Case = styled.div`
   -ms-user-select: none; /* Bloqueia a seleção do texto da imagem no Internet Explorer */
 
   span {
+    color: #ff6600;
     font-size: 24px;
     font-weight: 500;
   }
 
   p {
+    color: #10001f;
     height: 60%;
     font-size: 18px;
     font-weight: inherit;
@@ -84,7 +89,7 @@ export const Case = styled.div`
     }
 
     p {
-      font-size: 20px;
+      font-size: 23px;
     }
 
     a {

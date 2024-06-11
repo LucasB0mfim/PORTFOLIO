@@ -11,6 +11,7 @@ export const Container = styled.section`
 
   @media (min-width: 1600px) {
     max-width: 1400px;
+    height: 60vh;
   }
 
   @media (max-width: 678px) {
@@ -85,6 +86,10 @@ export const Aside = styled.aside`
       }
     }
   }
+  @media (min-width: 1600px) {
+    height: 70%;
+  }
+
   @media (max-width: 678px) {
     height: 70%;
     width: 80%;

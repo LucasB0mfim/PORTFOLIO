@@ -1,9 +1,9 @@
-import React from 'react'
 import * as S from './styles'
 
 const OFFSETS: { [key: string]: number } = {
   default: -100, // Ajuste este valor conforme necessário
   about: -100,
+  MySelf: -76,
   tech: -76,
   projects: -76
 }
@@ -32,6 +32,9 @@ const Header = () => (
         <ul>
           <li>
             <a onClick={() => scrollToSection('sobre')}>Início</a>
+          </li>
+          <li>
+            <a onClick={() => scrollToSection('MySelf')}>Objetivo</a>
           </li>
           <li>
             <a onClick={() => scrollToSection('tech')}>Tecnologias</a>

@@ -9,6 +9,7 @@ import { GlobalStyle } from './styles'
 import Footer from './components/Footer'
 import SocialMedia from './components/SocialMedia'
 import Github from './components/Github'
+import MySelf from './components/MySelf'
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       <Header />
       <div className="containerOrange">
         <Menu />
+      </div>
+      <div className="container">
+        <MySelf />
       </div>
       <div className="containerGray">
         <Tech />

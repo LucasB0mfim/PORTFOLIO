@@ -3,21 +3,21 @@ const projetos = [
     id: 1,
     name: 'Disney+',
     description:
-      'O objetivo deste projeto foi aprimorar minhas habilidades em estilização. Utilizei as seguintes ferramentas: HTML, Sass e jQuery.',
+      'Projeto que recria a interface visual do Disney+, desenvolvida para aprimorar minhas habilidades em estilização e design. Oferece uma experiência envolvente, refletindo a qualidade e a magia do original.',
     url: 'https://siteclonedisneyplus.vercel.app/'
   },
   {
     id: 2,
     name: 'Efood',
     description:
-      'Site para a venda de refeições. Neste projeto, aprofundei meus conhecimentos nas bibliotecas do React. Ferramentas utilizadas: React.js e TypeScript.',
+      'O Efood é uma projeto que aproxima clientes, restaurantes e entregadores de forma simples e prática. E, para proporcionar uma experiência incrível para todo mundo, sua entrega vai muito além do delivery.',
     url: 'https://efood-fast.vercel.app/'
   },
   {
     id: 3,
     name: 'Eplay Games',
     description:
-      'Site destinado a venda de jogos em mídia digital. Ferramentas utilizadas: React.js e TypeScript.',
+      'Eplay é um projeto que conecta jogadores aos melhores títulos de jogos digitais de forma simples e prática. Seu objetivo é Unir qualidade com praticidade.',
     url: 'https://lojaprogames.vercel.app/'
   }
 ]

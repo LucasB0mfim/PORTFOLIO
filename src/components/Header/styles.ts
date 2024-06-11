@@ -48,17 +48,17 @@ export const Icon = styled.div`
   align-items: center;
   height: 100%;
 
+  user-drag: none; /* Bloqueia o arrastar da imagem */
+  -webkit-user-drag: none; /* Bloqueia o arrastar da imagem no WebKit */
+  user-select: none; /* Bloqueia a seleção do texto da imagem */
+  -webkit-user-select: none; /* Bloqueia a seleção do texto da imagem no WebKit */
+  -moz-user-select: none; /* Bloqueia a seleção do texto da imagem no Firefox */
+  -ms-user-select: none; /* Bloqueia a seleção do texto da imagem no Internet Explorer */
+
   img {
     width: 50px;
     height: 65%;
     filter: drop-shadow(0px 1px 3px #9e9e9e);
-
-    user-drag: none; /* Bloqueia o arrastar da imagem */
-    -webkit-user-drag: none; /* Bloqueia o arrastar da imagem no WebKit */
-    user-select: none; /* Bloqueia a seleção do texto da imagem */
-    -webkit-user-select: none; /* Bloqueia a seleção do texto da imagem no WebKit */
-    -moz-user-select: none; /* Bloqueia a seleção do texto da imagem no Firefox */
-    -ms-user-select: none; /* Bloqueia a seleção do texto da imagem no Internet Explorer */
   }
 
   h1 {
@@ -88,6 +88,13 @@ export const Icon = styled.div`
     display: flex;
     justify-content: center;
   }
+
+  user-drag: none; /* Bloqueia o arrastar da imagem */
+  -webkit-user-drag: none; /* Bloqueia o arrastar da imagem no WebKit */
+  user-select: none; /* Bloqueia a seleção do texto da imagem */
+  -webkit-user-select: none; /* Bloqueia a seleção do texto da imagem no WebKit */
+  -moz-user-select: none; /* Bloqueia a seleção do texto da imagem no Firefox */
+  -ms-user-select: none; /* Bloqueia a seleção do texto da imagem no Internet Explorer */
 `
 
 export const ItemsList = styled.div`

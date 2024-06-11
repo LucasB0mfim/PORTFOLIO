@@ -41,6 +41,13 @@ export const Main = styled.main`
       typing 3s steps(19),
       blinking 0.5s infinite step-end alternate;
 
+    user-drag: none; /* Bloqueia o arrastar da imagem */
+    -webkit-user-drag: none; /* Bloqueia o arrastar da imagem no WebKit */
+    user-select: none; /* Bloqueia a seleção do texto da imagem */
+    -webkit-user-select: none; /* Bloqueia a seleção do texto da imagem no WebKit */
+    -moz-user-select: none; /* Bloqueia a seleção do texto da imagem no Firefox */
+    -ms-user-select: none; /* Bloqueia a seleção do texto da imagem no Internet Explorer */
+
     @media (min-width: 1600px) {
       font-size: 57px;
       border-right: 10px solid;
