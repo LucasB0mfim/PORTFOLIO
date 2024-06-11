@@ -16,6 +16,7 @@ export const Container = styled.section`
     max-width: 678px;
     flex-direction: column;
     position: relative;
+    overflow-y: hidden;
   }
 `
 
@@ -46,7 +47,7 @@ export const Main = styled.main`
       margin-bottom: -80px;
     }
     @media (max-width: 678px) {
-      font-size: 28px;
+      font-size: 1.7rem;
       width: 90%;
     }
   }

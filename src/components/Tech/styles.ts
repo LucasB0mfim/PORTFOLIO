@@ -15,7 +15,7 @@ export const Container = styled.section`
 
   @media (max-width: 678px) {
     max-width: 678px;
-    height: 60vh;
+    height: 70vh;
   }
 `
 
@@ -37,7 +37,7 @@ export const Main = styled.main`
     }
   }
   @media (max-width: 678px) {
-    height: 40%;
+    height: 30%;
   }
 `
 
@@ -86,6 +86,7 @@ export const Aside = styled.aside`
     }
   }
   @media (max-width: 678px) {
-    height: 60%;
+    height: 70%;
+    width: 80%;
   }
 `
