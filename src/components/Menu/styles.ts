@@ -54,7 +54,7 @@ export const Main = styled.main`
       margin-bottom: -80px;
     }
     @media (max-width: 678px) {
-      font-size: 1.8rem;
+      font-size: 7.5vw;
       width: 90%;
     }
   }

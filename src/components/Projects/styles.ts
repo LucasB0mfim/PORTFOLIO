@@ -1,26 +1,24 @@
 import styled from 'styled-components'
 
 export const Container = styled.section`
-  height: 100vh;
   max-width: 1024px;
   width: 100%;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 
   @media (min-width: 1600px) {
     max-width: 1600px;
-    height: 70vh;
   }
 
   @media (max-width: 678px) {
     max-width: 678px;
-    height: 60vh;
   }
 `
 
 export const Title = styled.div`
-  height: 30%;
+  height: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +40,7 @@ export const Title = styled.div`
 `
 
 export const CardList = styled.div`
-  height: 50%;
+  height: 80%;
   width: 100%;
   display: flex;
   align-items: center;

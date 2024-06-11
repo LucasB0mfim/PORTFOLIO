@@ -19,9 +19,9 @@ export const Container = styled.div`
       width: 280px;
     }
   }
+
   @media (max-width: 678px) {
     max-width: 678px;
-    height: 50vh;
     flex-direction: column-reverse;
     justify-content: center;
 
@@ -65,6 +65,7 @@ export const Box = styled.div`
       transform: translateX(5px); /* Move a seta 5px para a direita */
     }
   }
+
   @media (min-width: 1600px) {
     h3 {
       font-size: 60px;
@@ -79,9 +80,11 @@ export const Box = styled.div`
       }
     }
   }
+
   @media (max-width: 678px) {
     justify-content: center;
     width: 80%;
+    height: 40%;
 
     h3 {
       font-size: 30px;

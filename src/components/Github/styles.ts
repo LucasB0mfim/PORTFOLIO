@@ -23,7 +23,6 @@ export const Container = styled.div`
   }
   @media (max-width: 678px) {
     max-width: 678px;
-    height: 50vh;
     flex-direction: column;
     justify-content: center;
 
