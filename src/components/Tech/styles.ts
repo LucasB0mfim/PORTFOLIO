@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.section`
   max-width: 1024px;
   width: 100%;
-  height: calc(100vh - 76px);
+  height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,12 +11,10 @@ export const Container = styled.section`
 
   @media (min-width: 1600px) {
     max-width: 1400px;
-    height: 60vh;
   }
 
   @media (max-width: 678px) {
     max-width: 678px;
-    height: 55vh;
   }
 `
 
@@ -93,5 +91,12 @@ export const Aside = styled.aside`
   @media (max-width: 678px) {
     height: 70%;
     width: 80%;
+
+    ul {
+      li {
+        width: 32px;
+        height: 32px;
+      }
+    }
   }
 `
