@@ -18,6 +18,11 @@ export const Container = styled.div`
   @media (min-width: 1600px) {
     height: 100px;
   }
+
+  @media (max-width: 678px) {
+    max-width: 678px;
+    width: 100%;
+  }
 `
 
 export const Headerbar = styled.header`
@@ -30,6 +35,11 @@ export const Headerbar = styled.header`
 
   @media (min-width: 1600px) {
     max-width: 1400px;
+  }
+
+  @media (max-width: 678px) {
+    max-width: 678px;
+    width: 100%;
   }
 `
 
@@ -73,6 +83,11 @@ export const Icon = styled.div`
       }
     }
   }
+  @media (max-width: 678px) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 `
 
 export const ItemsList = styled.div`
@@ -95,6 +110,9 @@ export const ItemsList = styled.div`
       @media (min-width: 1600px) {
         font-size: 23px;
       }
+    }
+    @media (max-width: 678px) {
+      display: none;
     }
   }
 `

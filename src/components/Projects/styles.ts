@@ -11,6 +11,11 @@ export const Container = styled.section`
   @media (min-width: 1600px) {
     max-width: 1600px;
   }
+
+  @media (max-width: 678px) {
+    max-width: 678px;
+    height: 100vh;
+  }
 `
 
 export const Title = styled.div`
@@ -30,6 +35,9 @@ export const Title = styled.div`
       font-size: 70px;
     }
   }
+  @media (max-width: 678px) {
+    height: 30%;
+  }
 `
 
 export const CardList = styled.div`
@@ -37,4 +45,10 @@ export const CardList = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
+
+  @media (max-width: 678px) {
+    height: 70%;
+    justify-content: center;
+    align-items: start;
+  }
 `

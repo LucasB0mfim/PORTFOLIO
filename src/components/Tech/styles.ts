@@ -12,6 +12,11 @@ export const Container = styled.section`
   @media (min-width: 1600px) {
     max-width: 1400px;
   }
+
+  @media (max-width: 678px) {
+    max-width: 678px;
+    height: 60vh;
+  }
 `
 
 export const Main = styled.main`
@@ -30,6 +35,9 @@ export const Main = styled.main`
     @media (min-width: 1600px) {
       font-size: 70px;
     }
+  }
+  @media (max-width: 678px) {
+    height: 40%;
   }
 `
 
@@ -76,5 +84,8 @@ export const Aside = styled.aside`
         height: 65px;
       }
     }
+  }
+  @media (max-width: 678px) {
+    height: 60%;
   }
 `

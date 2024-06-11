@@ -11,6 +11,12 @@ export const Container = styled.section`
   @media (min-width: 1600px) {
     max-width: 1400px;
   }
+
+  @media (max-width: 678px) {
+    max-width: 678px;
+    flex-direction: column;
+    position: relative;
+  }
 `
 
 export const Main = styled.main`
@@ -39,6 +45,10 @@ export const Main = styled.main`
       border-right: 10px solid;
       margin-bottom: -80px;
     }
+    @media (max-width: 678px) {
+      font-size: 28px;
+      width: 90%;
+    }
   }
 
   @keyframes typing {
@@ -50,6 +60,11 @@ export const Main = styled.main`
     50% {
       border-color: transparent;
     }
+  }
+
+  @media (max-width: 678px) {
+    width: 100%;
+    height: 40%;
   }
 `
 
@@ -69,5 +84,17 @@ export const Aside = styled.aside`
     @media (min-width: 1600px) {
       width: 95%;
     }
+
+    @media (max-width: 678px) {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 678px) {
+    width: 100%;
+    height: 60%;
   }
 `

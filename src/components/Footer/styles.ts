@@ -8,4 +8,13 @@ export const Footerbar = styled.footer`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 678px) {
+    text-align: center;
+    font-size: 15px;
+
+    p {
+      width: 80%;
+    }
+  }
 `

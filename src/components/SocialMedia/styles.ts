@@ -19,6 +19,15 @@ export const Container = styled.div`
       width: 280px;
     }
   }
+  @media (max-width: 678px) {
+    max-width: 678px;
+    flex-direction: column-reverse;
+    justify-content: center;
+
+    img {
+      width: 150px;
+    }
+  }
 `
 
 export const Box = styled.div`
@@ -66,6 +75,29 @@ export const Box = styled.div`
 
       img {
         width: 22px;
+      }
+    }
+  }
+  @media (max-width: 678px) {
+    justify-content: center;
+    width: 80%;
+
+    h3 {
+      font-size: 30px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 15px;
+      text-align: center;
+    }
+    a {
+      justify-content: center;
+      font-size: 15px;
+      font-weight: 500;
+
+      img {
+        display: none;
       }
     }
   }

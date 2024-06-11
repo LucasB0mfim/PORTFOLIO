@@ -21,6 +21,15 @@ export const Container = styled.div`
       width: 300px;
     }
   }
+  @media (max-width: 678px) {
+    max-width: 678px;
+    flex-direction: column;
+    justify-content: center;
+
+    img {
+      width: 150px;
+    }
+  }
 `
 
 export const Box = styled.div`
@@ -69,4 +78,26 @@ export const Box = styled.div`
       }
     }
   }
+    @media (max-width: 678px) {
+    justify-content: center;
+    width: 80%;
+    height: 50%;
+
+    > span {
+      font-size: 30px;
+      text-align: center;
+    }
+    p {
+      font-size: 15px;
+      text-align: center;
+    }
+    a {
+      justify-content: center;
+      font-size: 15px;
+      font-weight: 500;
+
+      img {
+        display: none;
+      }
+    }
 `

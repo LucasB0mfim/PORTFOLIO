@@ -15,7 +15,7 @@ const SocialMedia = () => (
         target="_blank"
         rel="noreferrer"
       >
-        <span></span>Conectar
+        <span>Conectar</span>
         <img src={seta} />
       </a>
     </S.Box>

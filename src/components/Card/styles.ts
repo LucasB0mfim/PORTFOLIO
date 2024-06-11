@@ -11,6 +11,10 @@ export const Ul = styled.ul`
   @media (min-width: 1600px) {
     gap: 30px;
   }
+  @media (max-width: 678px) {
+    width: 90%;
+    justify-content: space-between;
+  }
 `
 
 export const Case = styled.div`
@@ -40,6 +44,12 @@ export const Case = styled.div`
     height: 60%;
     font-size: 18px;
     font-weight: inherit;
+
+    @media (max-width: 678px) {
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+    }
   }
 
   a {
@@ -59,6 +69,10 @@ export const Case = styled.div`
     &:hover img {
       transform: translateX(5px); /* Move a seta 5px para a direita */
     }
+
+    @media (max-width: 678px) {
+      font-size: 15px;
+    }
   }
 
   @media (min-width: 1600px) {
@@ -76,5 +90,9 @@ export const Case = styled.div`
     a {
       font-size: 20px;
     }
+  }
+  @media (max-width: 678px) {
+    width: 280px;
+    height: 300px;
   }
 `
