@@ -1,5 +1,5 @@
 import VrGlasses from '../../assets/images/VrGlasses.png'
-import marcoZero from '../../assets/images/marco_zero.jpg'
+import marcoZero from '../../assets/images/marcoZeroTeste.jpg'
 
 import * as S from './styles'
 
