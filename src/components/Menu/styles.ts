@@ -1,12 +1,14 @@
 import styled from 'styled-components'
 
 export const Container = styled.section`
+  position: relative;
   max-width: 1024px;
   width: 100%;
   height: calc(100vh - 76px);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  overflow-y: hidden;
 
   @media (min-width: 1600px) {
     max-width: 1400px;
@@ -24,15 +26,15 @@ export const Main = styled.main`
   width: 50%;
   height: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
 
   span {
     color: #fff;
     width: 100%;
-    font-weight: 600;
     font-size: 42px;
+    font-weight: 600;
     font-family: 'Chakra Petch', sans-serif;
     border-right: 4px solid;
     white-space: nowrap;
@@ -53,6 +55,7 @@ export const Main = styled.main`
       border-right: 10px solid;
       margin-bottom: -80px;
     }
+
     @media (max-width: 678px) {
       font-size: 7.5vw;
       width: 90%;
@@ -64,6 +67,7 @@ export const Main = styled.main`
       width: 0;
     }
   }
+
   @keyframes blinking {
     50% {
       border-color: transparent;
@@ -80,24 +84,20 @@ export const Aside = styled.aside`
   width: 50%;
   height: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: end;
-  overflow-y: hidden;
+  flex-direction: column;
+  overflow-x: hidden;
 
   img {
-    display: flex;
+    position: absolute;
+    bottom: 0;
     filter: drop-shadow(0px 0px 10px #000);
-
-    @media (min-width: 1600px) {
-      width: 95%;
-    }
+    height: 80vh;
 
     @media (max-width: 678px) {
-      position: absolute;
-      bottom: 0;
-      left: 0;
       width: 100%;
+      height: auto;
     }
   }
 
