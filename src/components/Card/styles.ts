@@ -6,14 +6,13 @@ export const Ul = styled.ul`
   overflow-x: scroll;
   gap: 10px;
   scroll-behavior: smooth;
-  justify-content: center;
+  justify-content: space-between;
 
   @media (min-width: 1600px) {
     gap: 30px;
   }
   @media (max-width: 678px) {
     width: 90%;
-    justify-content: space-between;
   }
 `
 

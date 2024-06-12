@@ -27,7 +27,7 @@ function App() {
       <div className="containerGray">
         <SocialMedia />
       </div>
-      <div className="containerBlack">
+      <div className="container">
         <Github />
       </div>
       <Footer />
