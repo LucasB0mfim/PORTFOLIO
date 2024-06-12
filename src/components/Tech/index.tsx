@@ -1,4 +1,3 @@
-// Tech.tsx
 import html from '../../assets/images/IconHTML.png'
 import css from '../../assets/images/IconCSS.png'
 import js from '../../assets/images/IconJS.png'

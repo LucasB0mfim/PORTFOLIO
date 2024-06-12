@@ -1,6 +1,6 @@
 import { useRef, useState, MouseEvent } from 'react'
 
-import projetos from '../../projetos'
+import projetos from '../../api/projetos'
 
 import seta from '../../assets/images/seta.png'
 
