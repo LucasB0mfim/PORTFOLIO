@@ -13,7 +13,7 @@ const Github = () => (
         target="_blank"
         rel="noreferrer"
       >
-        <span>Conectar</span>
+        <span>Ver projetos</span>
         <img src={seta} />
       </a>
     </S.Box>
