@@ -35,8 +35,7 @@ export const Image = styled.img`
   -ms-user-select: none; /* Bloqueia a seleção do texto da imagem no Internet Explorer */
 
   @media (max-width: 678px) {
-    width: auto;
-    height: 100vh;
+    display: none;
   }
 `
 

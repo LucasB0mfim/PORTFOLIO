@@ -52,7 +52,6 @@ export const Case = styled.div`
     @media (max-width: 678px) {
       font-size: 15px;
       display: flex;
-      align-items: center;
     }
   }
 

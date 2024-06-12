@@ -104,8 +104,8 @@ export const Aside = styled.aside`
 
     ul {
       li {
-        width: 32px;
-        height: 32px;
+        width: 35px;
+        height: 35px;
       }
     }
   }

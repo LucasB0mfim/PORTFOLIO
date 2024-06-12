@@ -24,7 +24,7 @@ const projetos = [
     id: 4,
     name: 'Disney+',
     description:
-      'Projeto que recria a interface visual do Disney+, desenvolvida para aprimorar minhas habilidades em estilização e design. Oferece uma experiência envolvente, refletindo a qualidade e a magia do original.',
+      'Projeto que recria a interface visual do Disney+, desenvolvida para aprimorar minha habilidade em estilização e design. Oferece uma experiência envolvente, refletindo a qualidade e a magia do original.',
     url: 'https://siteclonedisneyplus.vercel.app/'
   }
 ]
