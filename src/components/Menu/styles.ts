@@ -152,7 +152,7 @@ export const Aside = styled.aside`
   img {
     position: absolute;
     bottom: 0;
-    filter: drop-shadow(0px 0px 10px ${colors.black});
+    // filter: drop-shadow(0px 0px 10px ${colors.black});
     height: 80vh;
 
     user-drag: none; /* Bloqueia o arrastar da imagem */
