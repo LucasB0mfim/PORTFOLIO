@@ -1,5 +1,13 @@
 import { createGlobalStyle } from 'styled-components'
 
+export const colors = {
+  yellow: '#fda61a',
+  orange: '#ff6700',
+  gray: '#eee',
+  white: '#fff',
+  black: '#10001f'
+}
+
 export const GlobalStyle = createGlobalStyle`
 * {
   box-sizing: border-box;
@@ -16,13 +24,13 @@ export const GlobalStyle = createGlobalStyle`
 
   /* Cor do controle da barra de rolagem */
   &::-webkit-scrollbar-thumb {
-    background-color: #fda61a;
+    background-color: ${colors.yellow};
     border-radius: 10px;
   }
 
   /* Cor do fundo da barra de rolagem */
   &::-webkit-scrollbar-track {
-    background-color: #fff;
+    background-color: ${colors.white};
   }
 }
 
@@ -40,7 +48,7 @@ export const GlobalStyle = createGlobalStyle`
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background:#ff6700;
+  background:${colors.orange};
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -50,7 +58,7 @@ export const GlobalStyle = createGlobalStyle`
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background: rgb(245, 245, 245);
+  background: ${colors.gray};
 }
 
 

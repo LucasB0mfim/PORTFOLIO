@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { colors } from '../../styles'
 
 export const Container = styled.section`
   max-width: 1024px;
@@ -25,7 +26,7 @@ export const Title = styled.div`
   width: 100%;
 
   h3 {
-    color: #10001f;
+    color: ${colors.black};
     font-size: 40px;
     font-weight: 600;
     font-family: 'Chakra Petch', sans-serif;

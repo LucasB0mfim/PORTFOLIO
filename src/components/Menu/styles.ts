@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { colors } from '../../styles'
 
 export const Container = styled.section`
   max-width: 1024px;
@@ -50,7 +51,7 @@ export const Main = styled.main`
   z-index: 1;
 
   span {
-    color: #fff;
+    color: ${colors.white};
     width: 100%;
     font-size: 42px;
     font-weight: 600;
@@ -71,7 +72,7 @@ export const Main = styled.main`
   }
 
   p {
-    color: #fff;
+    color: ${colors.white};
     width: 23%;
     font-size: 2vw;
     font-weight: 400;
@@ -148,7 +149,7 @@ export const Aside = styled.aside`
   img {
     position: absolute;
     bottom: 0;
-    filter: drop-shadow(0px 0px 10px #000);
+    filter: drop-shadow(0px 0px 10px ${colors.black});
     height: 80vh;
 
     user-drag: none; /* Bloqueia o arrastar da imagem */

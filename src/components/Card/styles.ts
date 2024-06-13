@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { colors } from '../../styles'
 
 export const Ul = styled.ul`
   width: 100%;
@@ -26,9 +27,35 @@ export const Case = styled.div`
   border-radius: 12px;
   border: 1px solid rgba(17, 17, 17, 0.1);
   margin-bottom: 10px;
-  box-shadow:
-    inset 2px 2px 4px rgba(0, 0, 0, 0.35),
-    inset -2px -2px 4px rgba(255, 255, 255, 0.9);
+  transition: all linear 0.2s;
+
+  &:hover {
+    box-shadow:
+      inset 2px 2px 4px rgba(0, 0, 0, 0.35),
+      inset -2px -2px 4px rgba(255, 255, 255, 0.9);
+
+    span {
+      font-size: 23.5px;
+      transition: all linear 0.2s;
+    }
+
+    p {
+      font-size: 17.5px;
+      transition: all linear 0x.2s;
+    }
+
+    a {
+      font-size: 17.5px;
+      transition: all linear 0.2s;
+    }
+
+    img {
+      width: 19.5px;
+      margin-bottom: -4px;
+      margin-left: 9.5px;
+      transition: all linear 0.2s;
+    }
+  }
 
   user-drag: none; /* Bloqueia o arrastar da imagem */
   -webkit-user-drag: none; /* Bloqueia o arrastar da imagem no WebKit */
@@ -38,16 +65,18 @@ export const Case = styled.div`
   -ms-user-select: none; /* Bloqueia a seleção do texto da imagem no Internet Explorer */
 
   span {
-    color: #ff6600;
+    color: ${colors.orange};
     font-size: 24px;
     font-weight: 500;
+    transition: all linear 0.2s;
   }
 
   p {
-    color: #10001f;
+    color: ${colors.black};
     height: 60%;
     font-size: 18px;
     font-weight: inherit;
+    transition: all linear 0.2s;
 
     @media (max-width: 678px) {
       font-size: 15px;
@@ -57,24 +86,21 @@ export const Case = styled.div`
 
   a {
     display: flex;
-    color: #ff6600;
+    color: ${colors.orange};
     font-size: 18px;
     font-weight: 500;
     align-items: center;
+    transition: all linear 0.2s;
 
     img {
       width: 20px;
       margin-left: 10px;
       margin-bottom: -2px;
-      transition: transform 0.3s ease;
-    }
+      transition: all linear 0.2s;
 
-    &:hover img {
-      transform: translateX(5px); /* Move a seta 5px para a direita */
-    }
-
-    @media (max-width: 678px) {
-      font-size: 15px;
+      &:hover {
+        transform: translateX(5px); /* Move a seta 5px para a direita */
+      }
     }
   }
 
@@ -94,8 +120,13 @@ export const Case = styled.div`
       font-size: 20px;
     }
   }
+
   @media (max-width: 678px) {
     width: 280px;
     height: 300px;
+
+    a {
+      font-size: 15px;
+    }
   }
 `

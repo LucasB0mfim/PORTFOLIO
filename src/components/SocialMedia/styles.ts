@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { colors } from '../../styles'
 
 export const Container = styled.div`
   max-width: 1024px;
@@ -38,7 +39,7 @@ export const Box = styled.div`
   justify-content: space-between;
 
   h3 {
-    color: #ff6600;
+    color: ${colors.orange};
     font-size: 50px;
   }
 
@@ -50,7 +51,7 @@ export const Box = styled.div`
 
   a {
     display: flex;
-    color: #ff6600;
+    color: ${colors.yellow};
     font-size: 18px;
     font-weight: 500;
 

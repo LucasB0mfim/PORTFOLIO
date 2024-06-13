@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { colors } from '../../styles'
 
 export const Container = styled.div`
   max-width: 1024px;
@@ -39,14 +40,14 @@ export const Box = styled.div`
   width: 50%;
 
   > span {
-    color: #000;
+    color: ${colors.black};
     font-size: 50px;
     font-weight: 600;
   }
 
   a {
     display: flex;
-    color: #000;
+    color: ${colors.black};
     font-size: 18px;
     font-weight: 500;
     margin-top: 20px;

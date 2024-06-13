@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 import { HashLink } from 'react-router-hash-link'
+import { colors } from '../../styles'
 
 export const Container = styled.div`
   position: sticky;
@@ -12,7 +13,7 @@ export const Container = styled.div`
   justify-content: center;
   width: 100%;
   height: 76px;
-  background-color: #fff;
+  background-color: ${colors.white};
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 
   @media (min-width: 1600px) {
@@ -58,11 +59,11 @@ export const Icon = styled.div`
   img {
     width: 50px;
     height: 65%;
-    filter: drop-shadow(0px 1px 3px #9e9e9e);
+    filter: drop-shadow(0px 1px 3px ${colors.gray});
   }
 
   h1 {
-    color: #10001f;
+    color: ${colors.black};
     font-family: 'Shadows Into Light', cursive;
     font-size: 24px;
     font-weigth: 600;
@@ -72,7 +73,7 @@ export const Icon = styled.div`
       font-family: 'Shadows Into Light', cursive;
       font-weigth: 600;
       font-size: 24px;
-      color: #ff6700;
+      color: ${colors.orange};
     }
 
     @media (min-width: 1600px) {
@@ -106,12 +107,12 @@ export const ItemsList = styled.div`
     }
 
     a {
-      color: #10001f;
+      color: ${colors.black};
       font-weight: 400;
       cursor: pointer;
 
       &:hover {
-        color: #ff6700;
+        color: ${colors.orange};
       }
 
       @media (min-width: 1600px) {
@@ -125,11 +126,11 @@ export const ItemsList = styled.div`
 `
 
 export const Link = styled(HashLink)`
-  color: #10001f;
+  color: ${colors.black};
   font-weight: 400;
   cursor: pointer;
 
   &:hover {
-    color: #ff6700;
+    color: ${colors.orange};
   }
 `

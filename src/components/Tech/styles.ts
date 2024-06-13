@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { colors } from '../../styles'
 
 export const Container = styled.section`
   max-width: 1024px;
@@ -26,7 +27,7 @@ export const Main = styled.main`
   justify-content: center;
 
   h3 {
-    color: #10001f;
+    color: ${colors.black};
     font-size: 40px;
     font-weight: 600;
     font-family: 'Chakra Petch', sans-serif;
@@ -116,10 +117,10 @@ export const Aside = styled.aside`
 export const HoveredIconName = styled.div`
   margin-bottom: 5%;
   font-size: 24px;
-  color: #10001f;
+  color: ${colors.black};
   font-weight: 500;
   font-family: 'Chakra Petch', sans-serif;
-  background-color: #fff;
+  background-color: ${colors.white};
   padding: 10px 20px;
   border-radius: 10px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
