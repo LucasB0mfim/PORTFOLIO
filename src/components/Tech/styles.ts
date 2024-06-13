@@ -114,8 +114,7 @@ export const Aside = styled.aside`
 `
 
 export const HoveredIconName = styled.div`
-  position: absolute;
-  bottom: 70px;
+  margin-bottom: 5%;
   font-size: 24px;
   color: #10001f;
   font-weight: 500;
@@ -125,7 +124,19 @@ export const HoveredIconName = styled.div`
   border-radius: 10px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
 
-  @media (max-width: 678px) {
-    bottom: 20px;
+  @media (min-width: 1600px) {
+    margin-bottom: 1%;
+  }
+
+  @media (max-width: 430px) {
+    margin-bottom: 25%;
+  }
+
+  @media (max-width: 375px) {
+    margin-bottom: 10%;
+  }
+
+  @media (max-width: 360px) {
+    margin-bottom: 8%;
   }
 `
