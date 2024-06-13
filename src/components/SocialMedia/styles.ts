@@ -86,6 +86,7 @@ export const Box = styled.div`
     justify-content: center;
     width: 80%;
     height: 40%;
+    align-items: center;
 
     h3 {
       font-size: 30px;
@@ -97,7 +98,7 @@ export const Box = styled.div`
       text-align: center;
     }
     a {
-      justify-content: center;
+      width: 61px;
       font-size: 15px;
       font-weight: 500;
 

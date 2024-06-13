@@ -3,7 +3,7 @@ const projetos = [
     id: 1,
     name: 'Efood',
     description:
-      'O Efood é uma projeto que aproxima clientes, restaurantes e entregadores de forma simples e prática. E, para proporcionar uma experiência incrível para todo mundo, sua entrega vai muito além do delivery.',
+      'O Efood é uma projeto que aproxima clientes, restaurantes e entregadores de forma simples e prática. Para proporcionar uma experiência incrível para todo mundo, sua entrega vai muito além do delivery.',
     url: 'https://efood-fast.vercel.app/'
   },
   {

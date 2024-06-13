@@ -44,11 +44,6 @@ export const Case = styled.div`
     font-size: 18px;
     font-weight: inherit;
     transition: all linear 0.2s;
-
-    @media (max-width: 678px) {
-      font-size: 15px;
-      display: flex;
-    }
   }
 
   a {
@@ -66,17 +61,17 @@ export const Case = styled.div`
       transition: all linear 0.2s;
 
       &:hover {
-        transform: translateX(5px); /* Move a seta 5px para a direita */
+        transform: translateX(5px);
       }
     }
   }
 
-  user-drag: none; /* Bloqueia o arrastar da imagem */
-  -webkit-user-drag: none; /* Bloqueia o arrastar da imagem no WebKit */
-  user-select: none; /* Bloqueia a seleção do texto da imagem */
-  -webkit-user-select: none; /* Bloqueia a seleção do texto da imagem no WebKit */
-  -moz-user-select: none; /* Bloqueia a seleção do texto da imagem no Firefox */
-  -ms-user-select: none; /* Bloqueia a seleção do texto da imagem no Internet Explorer */
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 
   &:hover {
     box-shadow:
@@ -87,28 +82,24 @@ export const Case = styled.div`
       margin-left: 4px;
       margin-top: 4px;
       font-size: 23.5px;
-      transition: all linear 0.2s;
     }
 
     p {
       margin-left: 3px;
       margin-top: 4px;
       font-size: 17.5px;
-      transition: all linear 0x.2s;
     }
 
     a {
       margin-left: 4px;
       margin-top: 4px;
       font-size: 17.5px;
-      transition: all linear 0.2s;
     }
 
     img {
       width: 19.5px;
       margin-bottom: -4px;
       margin-left: 9.5px;
-      transition: all linear 0.2s;
     }
   }
 
@@ -133,74 +124,73 @@ export const Case = styled.div`
       }
     }
 
-
     &:hover {
-    span {
-      margin-left: 4px;
-      margin-top: 4px;
-      font-size: 25.5px;
-      transition: all linear 0.2s;
-    }
+      span {
+        font-size: 25.5px;
+      }
 
-    p {
-      margin-left: 3px;
-      margin-top: 4px;
-      font-size: 22.8px;
-      transition: all linear 0x.2s;
-    }
+      p {
+        font-size: 22.8px;
+      }
 
-    a {
-      margin-left: 4px;
-      margin-top: 4px;
-      font-size: 19.5px;
-      transition: all linear 0.2s;
+      a {
+        font-size: 19.5px;
 
-      img {
-        width: 19.5px;
-        margin-bottom: -2px;
-        margin-left: 9.5px;
-        transition: all linear 0.2s;
+        img {
+          width: 19.5px;
+          margin-bottom: -2px;
+        }
       }
     }
-
   }
 
   @media (max-width: 678px) {
     width: 280px;
     height: 300px;
 
-    a {
-      font-size: 15px;
-    }
-
-    &:hover {
     span {
-      margin-left: 2px;
-      margin-top: 2px;
-      font-size: 23.5px;
-      transition: all linear 0.2s;
+      font-size: 20px;
     }
 
     p {
-      width: auto;
-      margin-left: 2px;
-      margin-top: 2px;
-      font-size: 14.8px;
-      transition: all linear 0x.2s;
+      width: 97%;
+      font-size: 14px;
     }
 
     a {
-      margin-left: 2px;
-      margin-top: 2px;
-      font-size: 14.5px;
-      transition: all linear 0.2s;
+      font-size: 14px;
+      width: 86px;
+
+      img {
+        width: 14px;
+        margin-left: 5px;
+      }
     }
 
-    img {
-      width: 19.5px;
-      margin-bottom: -3px;
-      margin-left: 9.5px;
-      transition: all linear 0.2s;
+    &:hover {
+      span {
+        margin-left: 4px;
+        margin-top: 2px;
+        font-size: 19.5px;
+      }
+
+      p {
+        margin-left: 4px;
+        margin-top: 2px;
+        font-size: 13.8px;
+      }
+
+      a {
+        margin-left: 4px;
+        margin-top: 2px;
+        font-size: 13.5px;
+      }
+
+      img {
+        width: 13px;
+        margin-bottom: -3px;
+        margin-left: 4px;
+      }
     }
   }
 `
