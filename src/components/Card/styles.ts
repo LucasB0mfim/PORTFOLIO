@@ -55,6 +55,8 @@ export const Case = styled.div`
       margin-left: 9.5px;
       transition: all linear 0.2s;
     }
+
+
   }
 
   user-drag: none; /* Bloqueia o arrastar da imagem */
@@ -127,6 +129,36 @@ export const Case = styled.div`
 
     a {
       font-size: 15px;
+    }
+
+    &:hover {
+
+    span {
+      margin-left: 2px;
+      margin-top: 2px;
+      font-size: 23.5px;
+      transition: all linear 0.2s;
+    }
+
+    p {
+      margin-left: 2px;
+      margin-top: 2px;
+      font-size: 14.8px;
+      transition: all linear 0x.2s;
+    }
+
+    a {
+      margin-left: 2px;
+      margin-top: 2px;
+      font-size: 14.5px;
+      transition: all linear 0.2s;
+    }
+
+    img {
+      width: 19.5px;
+      margin-bottom: -4px;
+      margin-left: 9.5px;
+      transition: all linear 0.2s;
     }
   }
 `
