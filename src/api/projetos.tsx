@@ -10,7 +10,7 @@ const projetos = [
     id: 2,
     name: 'Eplay Games',
     description:
-      'Eplay é um projeto que conecta jogadores aos melhores títulos de jogos digitais de forma simples e prática. Seu objetivo é Unir qualidade com praticidade.',
+      'Eplay é um projeto que conecta jogadores aos melhores jogos digitais de forma simples e prática. Seu objetivo é Unir qualidade com praticidade.',
     url: 'https://lojaprogames.vercel.app/'
   },
   {

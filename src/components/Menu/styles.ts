@@ -96,7 +96,10 @@ export const Main = styled.main`
     span {
       font-size: 57px;
       border-right: 10px solid;
-      margin-bottom: -80px;
+    }
+
+    p {
+      width: 8vw;
     }
   }
 
