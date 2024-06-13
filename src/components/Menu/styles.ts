@@ -60,7 +60,7 @@ export const Main = styled.main`
     overflow: hidden;
     animation:
       typing 3s steps(19),
-      blinking 0.5s infinite step-end alternate;
+      blinking 0.3s infinite step-end alternate;
 
     user-drag: none; /* Bloqueia o arrastar da imagem */
     -webkit-user-drag: none; /* Bloqueia o arrastar da imagem no WebKit */

@@ -39,7 +39,7 @@ export const Main = styled.main`
   }
 
   @media (max-width: 678px) {
-    height: 30%;
+    height: 25%;
 
     h3 {
       font-size: 40px;
@@ -101,7 +101,7 @@ export const Aside = styled.aside`
   }
 
   @media (max-width: 678px) {
-    height: 70%;
+    height: 75%;
     width: 80%;
 
     ul {
@@ -124,4 +124,8 @@ export const HoveredIconName = styled.div`
   padding: 10px 20px;
   border-radius: 10px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+
+  @media (max-width: 678px) {
+    bottom: 20px;
+  }
 `
