@@ -52,7 +52,9 @@ export const Aside = styled.aside`
   height: 70%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
 
   ul {
     height: auto;
@@ -109,4 +111,17 @@ export const Aside = styled.aside`
       }
     }
   }
+`
+
+export const HoveredIconName = styled.div`
+  position: absolute;
+  bottom: 70px;
+  font-size: 24px;
+  color: #10001f;
+  font-weight: 500;
+  font-family: 'Chakra Petch', sans-serif;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
 `
