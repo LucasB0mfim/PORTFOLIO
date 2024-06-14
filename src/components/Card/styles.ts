@@ -114,6 +114,7 @@ export const Case = styled.div`
     p {
       width: auto;
       font-size: 23px;
+      line-height: 33px;
     }
 
     a {
