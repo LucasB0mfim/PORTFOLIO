@@ -73,7 +73,7 @@ export const Main = styled.main`
 
   p {
     color: ${colors.white};
-    width: 23%;
+    width: 26%;
     font-size: 2vw;
     font-weight: 400;
     font-family: 'Chakra Petch', sans-serif;
@@ -99,18 +99,21 @@ export const Main = styled.main`
     }
 
     p {
-      width: 8vw;
+      width: 10vw;
     }
   }
 
   @media (max-width: 678px) {
+    width: 100%;
+    height: 40%;
+
     span {
       width: 90%;
       font-size: 7.5vw;
     }
 
     p {
-      width: 25%;
+      width: 28%;
       font-size: 6vw;
     }
   }
@@ -131,11 +134,6 @@ export const Main = styled.main`
     to {
       opacity: 1;
     }
-  }
-
-  @media (max-width: 678px) {
-    width: 100%;
-    height: 40%;
   }
 `
 

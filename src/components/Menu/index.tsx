@@ -1,5 +1,5 @@
 import VrGlasses from '../../assets/images/VrGlasses.png'
-import marcoZero from '../../assets/images/marcoZeroTeste.jpg'
+import marcoZero from '../../assets/images/portoDigital.jpg'
 
 import * as S from './styles'
 
@@ -9,7 +9,7 @@ const Menu = () => (
       <S.Image src={marcoZero} />
       <S.Main>
         <span>FULL STACK DEVELOPER </span>
-        <p>by recife</p>
+        <p>Recife/PE</p>
       </S.Main>
       <S.Aside>
         <img src={VrGlasses} />

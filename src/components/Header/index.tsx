@@ -23,9 +23,7 @@ const Header = () => (
   <S.Container>
     <S.Headerbar>
       <S.Icon>
-        <h1>
-          Lucas <span>Bomfim</span>
-        </h1>
+        <h1>Lucas</h1> <span>Bomfim</span>
       </S.Icon>
       <S.ItemsList>
         <ul>

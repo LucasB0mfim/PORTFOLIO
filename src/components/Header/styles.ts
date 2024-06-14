@@ -1,13 +1,14 @@
-import styled from 'styled-components'
-
 import { HashLink } from 'react-router-hash-link'
+
 import { colors } from '../../styles'
+
+import styled from 'styled-components'
 
 export const Container = styled.div`
   position: sticky;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,8 +47,11 @@ export const Headerbar = styled.header`
 
 export const Icon = styled.div`
   display: flex;
-  align-items: center;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
   height: 100%;
+  margin-top: 5px;
 
   user-drag: none; /* Bloqueia o arrastar da imagem */
   -webkit-user-drag: none; /* Bloqueia o arrastar da imagem no WebKit */
@@ -56,38 +60,62 @@ export const Icon = styled.div`
   -moz-user-select: none; /* Bloqueia a seleção do texto da imagem no Firefox */
   -ms-user-select: none; /* Bloqueia a seleção do texto da imagem no Internet Explorer */
 
-  img {
-    width: 50px;
-    height: 65%;
-    filter: drop-shadow(0px 1px 3px ${colors.gray});
+  h1 {
+    color: ${colors.orange};
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    line-height: 20px;
   }
 
-  h1 {
+  span {
     color: ${colors.black};
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 24px;
-    font-weigth: 600;
-    margin-left: 16px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    margin-left: 10px;
+    line-height: 20px;
+  }
+
+  @media (min-width: 1600px) {
+    h1 {
+      font-size: 40px;
+      line-height: 32px;
+    }
 
     span {
-      font-family: 'Shadows Into Light', cursive;
-      font-weigth: 600;
-      font-size: 24px;
-      color: ${colors.orange};
-    }
-
-    @media (min-width: 1600px) {
       font-size: 40px;
-
-      span {
-        font-size: 40px;
-      }
+      line-height: 32px;
     }
   }
+
   @media (max-width: 678px) {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+
+    h1 {
+      line-height: 23px;
+    }
+
+    span {
+      line-height: 23px;
+      margin: 0;
+    }
+  }
+
+  @media (max-width: 317px) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      line-height: 20px;
+    }
+
+    span {
+      line-height: 20px;
+    }
   }
 
   user-drag: none; /* Bloqueia o arrastar da imagem */
