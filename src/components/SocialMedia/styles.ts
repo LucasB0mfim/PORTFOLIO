@@ -51,7 +51,7 @@ export const Box = styled.div`
 
   a {
     display: flex;
-    color: ${colors.yellow};
+    color: ${colors.orange};
     font-size: 18px;
     font-weight: 500;
 

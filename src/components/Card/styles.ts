@@ -175,6 +175,7 @@ export const Case = styled.div`
       }
 
       p {
+        width: 96%;
         margin-left: 4px;
         margin-top: 2px;
         font-size: 13.8px;
