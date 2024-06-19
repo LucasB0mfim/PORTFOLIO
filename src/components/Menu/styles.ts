@@ -138,7 +138,6 @@ export const Main = styled.main`
 `
 
 export const Aside = styled.aside`
-  position: relative;
   width: 50%;
   height: 100%;
   display: flex;
@@ -162,6 +161,7 @@ export const Aside = styled.aside`
   }
 
   @media (max-width: 678px) {
+    position: relative;
     width: 100%;
     height: 60%;
     position: inherit;
