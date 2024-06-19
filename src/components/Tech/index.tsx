@@ -10,7 +10,7 @@ const Tech = () => {
   return (
     <S.Container id="tech">
       <S.Main>
-        <h3>Ferramentas</h3>
+        <h3>Tecnologias</h3>
       </S.Main>
       <S.Aside>
         <ul>
