@@ -39,7 +39,7 @@ const icons = [
   { id: 17, icon: java, name: 'Java' },
   { id: 18, icon: git, name: 'Git' },
   { id: 17, icon: github, name: 'GitHub' },
-  { id: 19, icon: api, name: 'Rest API' }
+  { id: 19, icon: api, name: 'API REST' }
 ]
 
 export default icons
