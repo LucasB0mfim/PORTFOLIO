@@ -15,6 +15,9 @@ import cypress from '../assets/images/IconCypress.png'
 import postgre from '../assets/images/IconPostgre.png'
 import mysql from '../assets/images/IconMysql.png'
 import java from '../assets/images/IconJava.png'
+import git from '../assets/images/iconGit.png'
+import github from '../assets/images/githubBig.png'
+import api from '../assets/images/iconAPI.png'
 
 const icons = [
   { id: 1, icon: html, name: 'HTML5' },
@@ -33,7 +36,10 @@ const icons = [
   { id: 14, icon: cypress, name: 'Cypress' },
   { id: 15, icon: postgre, name: 'Postgre' },
   { id: 16, icon: mysql, name: 'MySQL' },
-  { id: 17, icon: java, name: 'Java' }
+  { id: 17, icon: java, name: 'Java' },
+  { id: 18, icon: git, name: 'Git' },
+  { id: 17, icon: github, name: 'GitHub' },
+  { id: 19, icon: api, name: 'Rest API' }
 ]
 
 export default icons
