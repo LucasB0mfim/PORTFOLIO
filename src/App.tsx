@@ -11,6 +11,7 @@ import Github from './components/Github'
 import Loader from './components/Loader'
 
 import { GlobalStyle } from './styles'
+import CV from './components/CV'
 
 function App() {
   const [isLoading, setIsLoading] = useState(true)
@@ -52,6 +53,9 @@ function App() {
           </div>
           <div className="container">
             <Github />
+          </div>
+          <div className="containerOrange">
+            <CV />
           </div>
         </>
       )}

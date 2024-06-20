@@ -22,6 +22,7 @@ export const Container = styled.div`
       width: 300px;
     }
   }
+
   @media (max-width: 678px) {
     max-width: 678px;
     flex-direction: column;
@@ -37,7 +38,7 @@ export const Box = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 50%;
+  width: 485px;
 
   > span {
     color: ${colors.black};
@@ -64,12 +65,15 @@ export const Box = styled.div`
       transform: translateX(5px); /* Move a seta 5px para a direita */
     }
   }
+
   @media (min-width: 1600px) {
-    width: 60%;
+    width: 583px;
     height: 230px;
+
     > span {
       font-size: 60px;
     }
+
     a {
       font-size: 22px;
       align-items: center;
@@ -79,28 +83,31 @@ export const Box = styled.div`
       }
     }
   }
-    @media (max-width: 678px) {
-      width: 80%;
-      height: 40%;
-      justify-content: center;
-      align-items: center;
 
-    > span {
-      font-size: 30px;
-      text-align: center;
-    }
-    p {
-      font-size: 15px;
-      text-align: center;
-    }
-    a {
-      width: 92px;
-      justify-content: center;
-      font-size: 15px;
-      font-weight: 500;
+  @media (max-width: 678px) {
+    width: 80%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
 
-      img {
-        display: none;
-      }
+  > span {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  a {
+    width: 92px;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+
+    img {
+      display: none;
     }
+  }
 `
