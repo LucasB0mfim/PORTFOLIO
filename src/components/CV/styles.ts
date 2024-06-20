@@ -4,7 +4,6 @@ import { colors } from '../../styles'
 export const Btn = styled.div`
   background-color: #cc5200;
   color: white;
-  padding: 15px 30px;
   border: 1px solid #a84300;
   border-radius: 5px;
   font-size: 16px;
@@ -18,6 +17,10 @@ export const Btn = styled.div`
   }
 
   a {
+    padding: 20px 40px;
+    display: flex;
+    width: auto;
+    height: auto;
     color: ${colors.white};
     font-weight: 500;
   }
@@ -35,6 +38,12 @@ export const Btn = styled.div`
       transform: translateY(5px);
     }
   }
+
+  @media (min-width: 1600px) {
+    a {
+      padding: 10px 20px;
+    }
+  }
 `
 
 export const Container = styled.div`
@@ -45,16 +54,27 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  h3 {
-    color: ${colors.white};
-    font-size: 50px;
+  > div {
+    h3 {
+      color: ${colors.white};
+      font-size: 3.1rem;
+    }
+
+    p {
+      color: ${colors.white};
+      font-size: 1.5rem;
+      margin: 10px 0 10px 4px;
+      font-weight: 500;
+    }
   }
 
   @media (min-width: 1600px) {
     max-width: 1400px;
 
-    h3 {
-      font-size: 60px;
+    > div {
+      h3 {
+        font-size: 60px;
+      }
     }
 
     ${Btn} {
@@ -67,12 +87,23 @@ export const Container = styled.div`
     max-width: 678px;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 
-    h3 {
-      width: 300px;
-      font-size: 30px;
-      text-align: center;
-      margin-bottom: 10%;
+    > div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h3 {
+        font-size: 30px;
+      }
+
+      p {
+        width: 90%;
+        font-size: 15px;
+        margin: 2vh 0;
+      }
     }
   }
 `
@@ -80,6 +111,11 @@ export const Container = styled.div`
 export const ButtonContainer = styled.div`
   position: relative;
   display: inline-block;
+  margin-right: 40px;
+
+  @media (max-width: 678px) {
+    margin-right: 0;
+  }
 `
 
 export const Btnbackground = styled.div`

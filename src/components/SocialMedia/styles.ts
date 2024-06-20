@@ -40,12 +40,12 @@ export const Box = styled.div`
 
   h3 {
     color: ${colors.orange};
-    font-size: 50px;
+    font-size: 3.1rem;
   }
 
+  font-weight: 500;
   p {
     font-size: 1.5rem;
-    font-weight: 500;
     margin: 10px 0;
   }
 

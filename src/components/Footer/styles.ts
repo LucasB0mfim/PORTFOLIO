@@ -4,11 +4,12 @@ import { colors } from '../../styles'
 export const Footerbar = styled.footer`
   width: 100%;
   height: 76px;
-  background: ${colors.black};
-  color: ${colors.white};
+  background: ${colors.orange};
+  color: ${colors.black};
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: 400;
 
   @media (max-width: 678px) {
     text-align: center;

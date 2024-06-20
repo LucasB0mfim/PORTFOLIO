@@ -42,7 +42,7 @@ export const Box = styled.div`
 
   > span {
     color: ${colors.black};
-    font-size: 50px;
+    font-size: 3.1rem;
     font-weight: 600;
   }
 

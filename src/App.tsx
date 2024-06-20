@@ -48,14 +48,14 @@ function App() {
           <div className="container">
             <Projects />
           </div>
+          <div className="containerOrange">
+            <CV />
+          </div>
           <div className="containerGray">
             <SocialMedia />
           </div>
           <div className="container">
             <Github />
-          </div>
-          <div className="containerOrange">
-            <CV />
           </div>
         </>
       )}

@@ -59,8 +59,10 @@ export const Case = styled.div`
       margin-left: 10px;
       margin-bottom: -2px;
       transition: all linear 0.2s;
+    }
 
-      &:hover {
+    &:hover {
+      img {
         transform: translateX(5px);
       }
     }
