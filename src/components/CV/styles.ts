@@ -102,7 +102,7 @@ export const Container = styled.div`
       p {
         width: 90%;
         font-size: 15px;
-        margin: 2vh 0;
+        margin: 1vh 0 3vh 0;
       }
     }
   }
