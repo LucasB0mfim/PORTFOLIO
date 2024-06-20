@@ -8,7 +8,7 @@ const SocialMedia = () => (
     <S.Box>
       <div>
         <h3>Me siga no LinkedIn!</h3>
-        <p>Se conecte comigo para acompanhar as novidades!</p>
+        <p>Se conecte comigo para acompanhar as novidades</p>
       </div>
       <a
         href="https://www.linkedin.com/in/lucasbomfim06"

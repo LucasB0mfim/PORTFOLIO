@@ -3,8 +3,8 @@ import * as S from './styles'
 const CV = () => (
   <S.Container>
     <div>
-      <h3>Confira meu currículo</h3>
-      <p>Baixe meu CV para obter mais detalhes..!</p>
+      <h3>Confira meu currículo!</h3>
+      <p>Baixe meu CV para obter mais detalhes</p>
     </div>
     <S.ButtonContainer>
       <S.Btnbackground></S.Btnbackground>
