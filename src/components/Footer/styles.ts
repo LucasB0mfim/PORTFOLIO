@@ -3,17 +3,18 @@ import { colors } from '../../styles'
 
 export const Footerbar = styled.footer`
   width: 100%;
-  height: 76px;
+  height: 5vw;
   background: ${colors.orange};
   color: ${colors.white};
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 500;
+  font-size: 1rem;
 
   @media (max-width: 678px) {
+    height: 20vw;
     text-align: center;
-    font-size: 15px;
 
     p {
       width: 80%;

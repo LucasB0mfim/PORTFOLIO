@@ -111,11 +111,6 @@ export const Container = styled.div`
 export const ButtonContainer = styled.div`
   position: relative;
   display: inline-block;
-  margin-right: 40px;
-
-  @media (max-width: 678px) {
-    margin-right: 0;
-  }
 `
 
 export const Btnbackground = styled.div`

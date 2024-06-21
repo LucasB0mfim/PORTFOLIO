@@ -63,10 +63,10 @@ function App() {
             <CV />
           </div>
           <div className="containerGray">
-            <SocialMedia />
+            <Github />
           </div>
           <div className="container">
-            <Github />
+            <SocialMedia />
           </div>
           <Footer />
         </>
