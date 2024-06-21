@@ -16,20 +16,31 @@ import CV from './components/CV'
 function App() {
   const [isLoading, setIsLoading] = useState(true)
 
+  // código bonito
   useEffect(() => {
-    const handleLoad = () => {
+    const timer = setTimeout(() => {
       setIsLoading(false)
-    }
+    }, 3000)
 
-    if (document.readyState === 'complete') {
-      handleLoad()
-    } else {
-      window.addEventListener('load', handleLoad)
-      return () => {
-        window.removeEventListener('load', handleLoad)
-      }
-    }
+    // Limpar o timer quando o componente for desmontado
+    return () => clearTimeout(timer)
   }, [])
+
+  // código para carregar tudo de uma vez
+  // useEffect(() => {
+  //   const handleLoad = () => {
+  //     setIsLoading(false)
+  //   }
+
+  //   if (document.readyState === 'complete') {
+  //     handleLoad()
+  //   } else {
+  //     window.addEventListener('load', handleLoad)
+  //     return () => {
+  //       window.removeEventListener('load', handleLoad)
+  //     }
+  //   }
+  // }, [])
 
   return (
     <BrowserRouter>
