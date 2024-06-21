@@ -24,7 +24,7 @@ export const Container = styled.section`
 `
 
 export const Title = styled.div`
-  height: 20%;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,42 +32,42 @@ export const Title = styled.div`
 
   h3 {
     color: ${colors.black};
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 600;
     font-family: 'Chakra Petch', sans-serif;
   }
 
   @media (min-width: 1600px) {
-    height: 30%;
+    height: 30vh;
 
     h3 {
-      font-size: 65px;
+      font-size: 4.06rem;
     }
   }
 
   @media (max-width: 678px) {
-    height: 30%;
+    height: 30vh;
 
     h3 {
-      font-size: 40px;
+      font-size: 2.5rem;
     }
   }
 `
 
 export const CardList = styled.div`
-  height: 80%;
+  height: 80vh;
   width: 100%;
   display: flex;
   align-items: center;
 
   @media (min-width: 1600px) {
-    height: 70%;
+    height: 70vh;
     align-items: start;
     margin-top: 20px;
   }
 
   @media (max-width: 678px) {
-    height: 70%;
+    height: 70vh;
     justify-content: center;
     align-items: start;
   }
