@@ -5,7 +5,7 @@ export const Footerbar = styled.footer`
   width: 100%;
   height: 76px;
   background: ${colors.orange};
-  color: ${colors.black};
+  color: ${colors.white};
   display: flex;
   align-items: center;
   justify-content: center;

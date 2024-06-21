@@ -68,9 +68,9 @@ function App() {
           <div className="container">
             <Github />
           </div>
+          <Footer />
         </>
       )}
-      <Footer />
     </BrowserRouter>
   )
 }
