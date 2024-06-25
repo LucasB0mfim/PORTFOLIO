@@ -36,7 +36,7 @@ export const Box = styled.div`
   height: 180px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 
   h3 {
     color: ${colors.orange};
@@ -50,6 +50,7 @@ export const Box = styled.div`
   }
 
   a {
+    margin-top: 20px;
     display: flex;
     color: ${colors.orange};
     font-size: 18px;

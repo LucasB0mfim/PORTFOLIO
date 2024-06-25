@@ -37,7 +37,7 @@ export const Container = styled.div`
 export const Box = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   width: 485px;
 
   > span {

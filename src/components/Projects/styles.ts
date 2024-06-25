@@ -60,6 +60,7 @@ export const CardList = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 
   @media (min-width: 1600px) {
     height: 70vh;
@@ -71,5 +72,6 @@ export const CardList = styled.div`
     height: 70vh;
     justify-content: center;
     align-items: start;
+    margin-bottom: 0px;
   }
 `

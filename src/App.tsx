@@ -20,7 +20,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false)
-    }, 3000)
+    }, 2000)
 
     // Limpar o timer quando o componente for desmontado
     return () => clearTimeout(timer)
