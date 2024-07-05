@@ -16,6 +16,7 @@ export const Container = styled.section`
 
   @media (max-width: 678px) {
     max-width: 678px;
+    height: auto;
   }
 `
 
@@ -40,7 +41,7 @@ export const Main = styled.main`
   }
 
   @media (max-width: 678px) {
-    height: 25%;
+    padding-top: 3vh;
 
     h3 {
       font-size: 40px;
@@ -102,7 +103,7 @@ export const Aside = styled.aside`
   }
 
   @media (max-width: 678px) {
-    height: 75%;
+    padding-top: 3vh;
     width: 80%;
 
     ul {
@@ -129,15 +130,7 @@ export const HoveredIconName = styled.div`
     margin-bottom: 1%;
   }
 
-  @media (max-width: 430px) {
-    margin-bottom: 25%;
-  }
-
-  @media (max-width: 375px) {
-    margin-bottom: 10%;
-  }
-
-  @media (max-width: 360px) {
-    margin-bottom: 8%;
+  @media (max-width: 678px) {
+    margin: 5vh 0;
   }
 `
