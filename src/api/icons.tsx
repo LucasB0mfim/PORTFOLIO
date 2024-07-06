@@ -31,7 +31,7 @@ const icons = [
   { id: 7, icon: sass, name: 'Sass' },
   { id: 8, icon: less, name: 'Less' },
   { id: 9, icon: jquery, name: 'jQuery' },
-  // { id: 10, icon: bootstrap, name: 'Bootstrap' },
+  { id: 10, icon: bootstrap, name: 'Bootstrap' },
   { id: 11, icon: grunt, name: 'Grunt' },
   { id: 12, icon: gulp, name: 'Gulp' },
   { id: 13, icon: jest, name: 'Jest' },
