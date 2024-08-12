@@ -8,7 +8,7 @@ const Menu = () => (
     <S.Container id="sobre">
       <S.Image src={portoDigital} />
       <S.Main>
-        <span>FULL STACK DEVELOPER </span>
+        <span>FULLSTACK DEVELOPER </span>
         <p>Recife/PE</p>
       </S.Main>
       <S.Aside>
