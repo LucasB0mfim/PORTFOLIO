@@ -11,7 +11,7 @@ const projetos = [
     name: 'Eplay Games',
     description:
       'Eplay é um projeto que conecta jogadores aos melhores jogos digitais de forma simples e prática. Seu objetivo é Unir qualidade com praticidade.',
-    url: 'https://lojaprogames.vercel.app/'
+    url: 'https://lojaeplaygames.vercel.app/'
   },
   {
     id: 3,
@@ -19,13 +19,6 @@ const projetos = [
     description:
       'Organiza Tudo foi criado para auxiliar as pessoas na gestão de seus compromissos e atividades, promovendo uma rotina mais organizada e eficiente.',
     url: 'https://organiza-tudo.vercel.app/'
-  },
-  {
-    id: 4,
-    name: 'Disney+',
-    description:
-      'Projeto que recria a interface visual do Disney+, desenvolvida para aprimorar minha habilidade em estilização e design. Oferece uma experiência envolvente, refletindo a qualidade e a magia do original.',
-    url: 'https://clonedisney-bomfim.vercel.app/'
   }
 ]
 
