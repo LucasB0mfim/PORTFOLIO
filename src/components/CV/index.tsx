@@ -9,7 +9,7 @@ const CV = () => (
     <S.ButtonContainer>
       <S.Btnbackground></S.Btnbackground>
       <S.Btn>
-        <a href="/CV - Lucas Bomfim.pdf" download>
+        <a href="/CV - Lucas Bomfim Sobral.pdf" download>
           Baixar
         </a>
       </S.Btn>
