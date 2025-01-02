@@ -15,10 +15,10 @@ const projetos = [
   },
   {
     id: 3,
-    name: 'Efood',
+    name: 'PdfConverter',
     description:
-      'O Efood é um projeto que aproxima clientes, restaurantes e entregadores de forma simples e prática. Para proporcionar uma experiência incrível para todo mundo, sua entrega vai muito além do delivery.',
-    url: 'https://efood-fast.vercel.app/'
+      'PdfConverter é uma plataforma projetada para converter arquivos do formato Word (.docx) para PDF (.pdf) de maneira simples e eficiente.',
+    url: 'https://conversorpdf.vercel.app/'
   }
 ]
 
